@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AgroTention App</string>
+
+    <string name="title_slide_1">One click for every solution</string>
+    <string name="title_slide_2">smart detection for modern farmers</string>
+    <string name="title_slide_3">Recognize Diseases, Save Plants with One Scan</string>
+    <string name="get_started">Get Started</string>
+
 </resources>
