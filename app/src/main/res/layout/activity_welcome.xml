@@ -34,7 +34,6 @@
         app:layout_constraintStart_toStartOf="@+id/logoMenu1"
         app:layout_constraintTop_toBottomOf="@+id/logoMenu1" />
 
-
     <ImageView
         android:id="@+id/logoMenu2"
         android:layout_width="0dp"
@@ -52,13 +51,13 @@
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-condensed-light"
         android:gravity="center_horizontal"
+        android:text="@string/title_slide_2"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/logoMenu2"
         app:layout_constraintStart_toStartOf="@+id/logoMenu2"
-        app:layout_constraintTop_toBottomOf="@+id/logoMenu2"
-        android:text="@string/title_slide_2" />
+        app:layout_constraintTop_toBottomOf="@+id/logoMenu2" />
 
     <ImageView
         android:id="@+id/logoMenu3"
@@ -87,8 +86,8 @@
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/menu1"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
         android:layout_marginStart="32dp"
         app:altSrc="@drawable/ic_circle_full_24"
         app:layout_constraintEnd_toStartOf="@+id/menu2"
@@ -99,8 +98,8 @@
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/menu2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
         app:altSrc="@drawable/ic_circle_full_24"
         app:layout_constraintBottom_toBottomOf="@+id/menu1"
         app:layout_constraintEnd_toStartOf="@+id/menu3"
@@ -112,8 +111,8 @@
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/menu3"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
         app:altSrc="@drawable/ic_circle_full_24"
         app:layout_constraintBottom_toBottomOf="@+id/menu2"
         app:layout_constraintEnd_toStartOf="@+id/menu4"
@@ -128,10 +127,11 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:alpha="1"
+        android:background="@drawable/button_intro"
         android:text="@string/get_started"
-        app:layout_constraintTop_toBottomOf="@id/menu2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menu2"
         tools:layout_editor_absoluteY="112dp" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
