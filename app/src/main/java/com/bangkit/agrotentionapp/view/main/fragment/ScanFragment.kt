@@ -7,15 +7,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bangkit.agrotentionapp.R
-import com.bangkit.agrotentionapp.view.main.model.HomeViewModel
+import com.bangkit.agrotentionapp.view.main.model.ScanViewModel
 
-class HomeFragment : Fragment() {
+class ScanFragment : Fragment() {
 
     companion object {
-        fun newInstance() = HomeFragment()
+        fun newInstance() = ScanFragment()
     }
 
-    private val viewModel: HomeViewModel by viewModels()
+    private val viewModel: ScanViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +27,6 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        return inflater.inflate(R.layout.fragment_scan, container, false)
     }
 }
