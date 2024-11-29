@@ -24,5 +24,9 @@
     <string name="scan">Scan\n</string>
     <string name="history">History</string>
     <string name="profile">Profile</string>
+    <string name="info">💡 To use the scan feature, please select the type of plant you want to analyze.</string>
+    <string name="rice">Rice</string>
+    <string name="tomato">Tomato</string>
+    <string name="potato">Potato</string>
 
 </resources>
