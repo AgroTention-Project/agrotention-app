@@ -28,5 +28,6 @@
     <string name="rice">Rice</string>
     <string name="tomato">Tomato</string>
     <string name="potato">Potato</string>
+    <string name="register">register</string>
 
 </resources>
