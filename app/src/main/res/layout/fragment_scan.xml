@@ -38,6 +38,7 @@
 
         <!-- Rice Button -->
         <LinearLayout
+            android:id="@+id/btn_rice"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:orientation="vertical"
