@@ -35,5 +35,9 @@
     <string name="description">Description</string>
     <string name="name_plant">plant name</string>
     <string name="name_disease">disease name</string>
+    <string name="sign_in">sign in</string>
+    <string name="name">name</string>
+    <string name="company">company (opsional)</string>
+    <string name="role">role (opsional)</string>
 
 </resources>
