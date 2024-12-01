@@ -129,6 +129,7 @@
         android:alpha="1"
         android:background="@drawable/button_intro"
         android:text="@string/get_started"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/menu2"

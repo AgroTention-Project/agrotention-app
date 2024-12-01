@@ -34,6 +34,14 @@ class ScanFragment : Fragment() {
             startCamera()
         }
 
+        binding.btnTomato.setOnClickListener{
+            startCamera()
+        }
+
+        binding.btnPotato.setOnClickListener{
+            startCamera()
+        }
+
     }
 
     override fun onCreateView(
