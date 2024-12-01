@@ -27,15 +27,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <TextView
-        android:id="@+id/tv_app_name"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/iv_text"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/agrotention"
-        android:textColor="@color/colorPrimary"
-        android:textStyle="bold"
-        android:textSize="20sp"
+        android:src="@drawable/logo_title"
         app:layout_constraintTop_toBottomOf="@id/iv_logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -50,7 +47,7 @@
         android:backgroundTint="@color/colorPrimary"
         android:textColorHint="@color/grey"
         android:inputType="textEmailAddress"
-        app:layout_constraintTop_toBottomOf="@id/tv_app_name"
+        app:layout_constraintTop_toBottomOf="@id/iv_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.8" />
@@ -87,13 +84,26 @@
         android:layout_marginTop="24dp"
         android:backgroundTint="#2F5D2F"
         android:text="@string/login"
-        android:textSize="24sp"
+        android:textSize="18sp"
         android:textColor="@color/white"
         app:cornerRadius="8dp"
         app:layout_constraintTop_toBottomOf="@id/tv_forgot_password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/tv_or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/or"
+        android:textSize="14sp"
+        android:textColor="@color/grey"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_google"
@@ -103,23 +113,50 @@
         android:text="@string/continue_with_google"
         android:backgroundTint="@color/white"
         android:textColor="@color/colorPrimary"
-        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        android:gravity="center"
+        app:icon="@drawable/logo_google"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="@null"
+        app:layout_constraintTop_toBottomOf="@id/tv_or"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.8" />
 
-    <TextView
-        android:id="@+id/tv_register"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/don_t_have_an_account_sign_up"
-        android:textColor="@color/grey"
-        android:textSize="14sp"
-        android:textStyle="bold"
+        android:orientation="horizontal"
+        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/btn_google"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/don_t_have_an_account_sign_up"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="4dp"
+            android:text="@string/sign_up"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

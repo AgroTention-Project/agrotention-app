@@ -69,7 +69,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
 
     // Firebase
-    implementation(libs.firebase.bom)
+    implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
 
 }
