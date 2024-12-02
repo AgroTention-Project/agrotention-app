@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "555046474426-0qsrngho42f0qrhlnbivvu0fr3qpqhn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bangkit.agrotentionapp",
+            "certificate_hash": "415d4679f9e19453303453ef3271060c28ab4b9e"
+          }
+        },
+        {
           "client_id": "555046474426-k5ivi157675f7msoc41shm4rd5sas8ae.apps.googleusercontent.com",
           "client_type": 3
         }
