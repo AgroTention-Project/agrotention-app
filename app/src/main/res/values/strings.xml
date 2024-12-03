@@ -41,5 +41,7 @@
     <string name="role">role (opsional)</string>
     <string name="or">OR</string>
     <string name="sign_up">SIGN-UP</string>
+    <string name="publisher">publisher</string>
+    <string name="time">time</string>
 
 </resources>

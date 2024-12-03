@@ -36,7 +36,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/img_plant"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="@string/name_plant" />
+            tools:text="@string/name_plant"
+            android:fontFamily="@font/open_sans"/>
 
         <TextView
             android:id="@+id/name_disease"
@@ -48,7 +49,8 @@
             app:layout_constraintStart_toEndOf="@+id/img_plant"
             app:layout_constraintTop_toBottomOf="@+id/name_plant"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:text="@string/name_disease" />
+            tools:text="@string/name_disease"
+            android:fontFamily="@font/open_sans"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
