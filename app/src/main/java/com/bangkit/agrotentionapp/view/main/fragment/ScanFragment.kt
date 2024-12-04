@@ -8,7 +8,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
-import com.bangkit.agrotentionapp.R
 import com.bangkit.agrotentionapp.databinding.FragmentScanBinding
 import com.bangkit.agrotentionapp.util.getImageUri
 import com.bangkit.agrotentionapp.view.main.model.ScanViewModel
@@ -20,6 +19,7 @@ class ScanFragment : Fragment() {
     private val binding get() = _binding!!
 
     private var currentImageUri: Uri? = null
+
 
     companion object {
         fun newInstance() = ScanFragment()
@@ -66,6 +66,7 @@ class ScanFragment : Fragment() {
             currentImageUri = null
         }
     }
+
 
 
 }

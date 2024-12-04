@@ -41,6 +41,11 @@
     <string name="role">role (opsional)</string>
     <string name="or">OR</string>
     <string name="sign_up">SIGN-UP</string>
+<<<<<<< HEAD
     <string name="default_web_client_id">555046474426-k5ivi157675f7msoc41shm4rd5sas8ae.apps.googleusercontent.com</string>
+=======
+    <string name="publisher">publisher</string>
+    <string name="time">time</string>
+>>>>>>> 0ac38e4b1a97982f509e5e01d89f752612d9e613
 
 </resources>

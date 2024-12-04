@@ -11,64 +11,60 @@
     android:padding="16dp"
     app:cardCornerRadius="8dp"
     app:cardElevation="0dp" >
-    
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/img_news"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:contentDescription="@string/image"
             android:scaleType="centerCrop"
             android:visibility="visible"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
         <TextView
             android:id="@+id/title_news"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:gravity="center"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/img_news"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/open_sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_news"
+            app:layout_constraintTop_toTopOf="parent"
             tools:text="@string/title" />
 
         <TextView
-            android:id="@+id/author_news"
-            android:layout_width="wrap_content"
+            android:id="@+id/publisher_news"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:textSize="14sp"
-            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/img_news"
+            app:layout_constraintTop_toBottomOf="@+id/title_news"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/title_news"
-            tools:text="@string/author" />
+            tools:text="@string/publisher"
+            android:fontFamily="@font/open_sans"/>
 
         <TextView
-            android:id="@+id/description_news"
-            android:layout_width="match_parent"
+            android:id="@+id/time_news"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:textSize="14sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/author_news"
-            tools:text="@string/description" />
+            app:layout_constraintStart_toEndOf="@+id/img_news"
+            app:layout_constraintTop_toBottomOf="@+id/publisher_news"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="@string/time"
+            android:fontFamily="@font/open_sans"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </com.google.android.material.card.MaterialCardView>
