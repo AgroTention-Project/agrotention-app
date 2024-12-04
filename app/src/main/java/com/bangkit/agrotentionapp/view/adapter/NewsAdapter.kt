@@ -16,8 +16,7 @@ class NewsAdapter(private val onItemClick: (String) -> Unit) : ListAdapter<DataI
 
     class NewsViewHolder(private val binding: ItemNewsBinding, private val onItemClick: (String) -> Unit) : RecyclerView.ViewHolder(binding.root) {
         fun bind(news: DataItem) {
-
-            binding.imgNews.setImageDrawable(ContextCompat.getDrawable(binding.root.context, R.drawable.logo))
+            binding.imgNews.setImageDrawable(ContextCompat.getDrawable(binding.root.context, R.drawable.agrotention_news))
             binding.titleNews.text = news.title
             binding.publisherNews.text = news.publisher
             binding.timeNews.text = news.time
