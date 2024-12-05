@@ -19,7 +19,7 @@ class ApiConfig {
                 .writeTimeout(30, TimeUnit.SECONDS)
                 .build()
             val retrofit = Retrofit.Builder()
-                .baseUrl("https://agrotention-project-441716.et.r.appspot.com/")
+                .baseUrl(BuildConfig.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()

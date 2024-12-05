@@ -25,6 +25,7 @@
         <activity
             android:name=".view.login.LoginActivity"
             android:exported="false" />
+
         <activity
             android:name=".view.welcome.WelcomeActivity"
             android:exported="true">
@@ -34,11 +35,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".view.main.MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

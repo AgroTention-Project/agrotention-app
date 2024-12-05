@@ -9,11 +9,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.activity.OnBackPressedCallback
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bangkit.agrotentionapp.R
 import com.bangkit.agrotentionapp.data.remote.response.DataItem
 import com.bangkit.agrotentionapp.databinding.FragmentHomeBinding
-import com.bangkit.agrotentionapp.databinding.FragmentScanBinding
 import com.bangkit.agrotentionapp.view.adapter.NewsAdapter
 import com.bangkit.agrotentionapp.view.main.factory.HomeFactory
 import com.bangkit.agrotentionapp.view.main.model.HomeViewModel
