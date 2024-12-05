@@ -13,6 +13,7 @@
         android:textColor="@color/black"
         android:textSize="32sp"
         android:text="@string/history"
+        android:fontFamily="@font/poppins_bold"
         android:layout_marginTop="12dp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"

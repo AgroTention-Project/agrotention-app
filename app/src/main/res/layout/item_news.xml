@@ -34,24 +34,27 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="16dp"
-            android:fontFamily="@font/open_sans"
+            android:fontFamily="@font/poppins_bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/img_news"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="@string/title" />
+            tools:text="@string/title"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/publisher_news"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
             android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/img_news"
             app:layout_constraintTop_toBottomOf="@+id/title_news"
-            app:layout_constraintEnd_toEndOf="parent"
-            tools:text="@string/publisher"
-            android:fontFamily="@font/open_sans"/>
+            tools:text="@string/publisher" />
 
         <TextView
             android:id="@+id/time_news"
@@ -59,12 +62,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/img_news"
             app:layout_constraintTop_toBottomOf="@+id/publisher_news"
-            app:layout_constraintEnd_toEndOf="parent"
             tools:text="@string/time"
-            android:fontFamily="@font/open_sans"/>
+            android:textSize="10sp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>
