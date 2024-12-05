@@ -14,7 +14,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/grey">
 
         <ImageView
             android:id="@+id/img_news"
@@ -35,6 +36,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/poppins_bold"
+            android:ellipsize="end"
+            android:maxLines="2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/img_news"
             app:layout_constraintTop_toTopOf="parent"
