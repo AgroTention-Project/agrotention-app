@@ -45,5 +45,8 @@
     <string name="publisher">publisher</string>
     <string name="time">time</string>
     <string name="agrotention_news">AGROTENTION NEWS</string>
+    <string name="continue_with_instagram">continue with instagram</string>
+    <string name="continue_with_facebook">continue with facebook</string>
+    <string name="from">from</string>
 
 </resources>
