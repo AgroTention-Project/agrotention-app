@@ -52,5 +52,10 @@
     <string name="no_tlp">083876567456</string>
     <string name="logout">logout</string>
     <string name="tlp_number">phone number :</string>
+    <string name="Solanum_lycopersicum">(Solanum lycopersicum)</string>
+    <string name="dieases_name">disease name :</string>
+    <string name="sample_virus">Tomato Mosaic Virus</string>
+    <string name="disease_management">disease management methods :</string>
+    <string name="sample_method">Tomato Mosaic Virus (ToMV) is a viral disease that affects tomatoes and other solanaceous plants. Here are some steps to handle and manage the disease:\nIdentify Infected Plants: Early signs of ToMV include mottling (mosaic pattern) on the leaves, stunted growth, yellowing, and deformed fruit. If you notice these symptoms, it\'s important to act quickly.</string>
 
 </resources>
