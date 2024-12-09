@@ -8,6 +8,7 @@ import com.bangkit.agrotentionapp.R
 import com.bangkit.agrotentionapp.databinding.ActivityMainBinding
 import com.bangkit.agrotentionapp.databinding.ActivityWelcomeBinding
 import com.bangkit.agrotentionapp.view.intro.IntroActivity
+import com.bangkit.agrotentionapp.view.login.LoginActivity
 import com.bangkit.agrotentionapp.view.main.MainActivity
 
 class WelcomeActivity : AppCompatActivity() {
@@ -22,10 +23,8 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
-            val intent = Intent(this, IntroActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
-
-
     }
 }
