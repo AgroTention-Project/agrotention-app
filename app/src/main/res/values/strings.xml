@@ -6,7 +6,7 @@
     <string name="title_slide_3">Recognize Diseases, Save Plants with One Scan</string>
     <string name="get_started">Get Started</string>
     <string name="img_desc">Image Logo</string>
-    <string name="email">Email Address</string>
+    <string name="email">Email Address :</string>
     <string name="password">Password</string>
     <string name="error_empty_email">Empty Email</string>
     <string name="error_empty_password">Empty Password</string>
@@ -36,7 +36,7 @@
     <string name="name_plant">plant name</string>
     <string name="name_disease">disease name</string>
     <string name="sign_in">sign in</string>
-    <string name="name">name</string>
+    <string name="name">name :</string>
     <string name="company">company (opsional)</string>
     <string name="role">role (opsional)</string>
     <string name="or">OR</string>
@@ -48,5 +48,9 @@
     <string name="continue_with_instagram">continue with instagram</string>
     <string name="continue_with_facebook">continue with facebook</string>
     <string name="from">from</string>
+    <string name="email_agrotention">agrotention@gmail.com</string>
+    <string name="no_tlp">083876567456</string>
+    <string name="logout">logout</string>
+    <string name="tlp_number">phone number :</string>
 
 </resources>
