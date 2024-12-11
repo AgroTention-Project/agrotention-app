@@ -6,4 +6,6 @@
     <color name="colorPrimary">#3D6838</color>
     <color name="colorBackground">#F5F5DC</color>
     <color name="grey">#888888</color>
+
+    <color name="bounding_box_color">#3D6838</color>
 </resources>
