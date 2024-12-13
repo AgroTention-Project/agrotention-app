@@ -31,6 +31,7 @@ retrofit = "2.9.0"
 tensorflowLiteGpu = "2.9.0"
 tensorflowLiteMetadata = "0.4.4"
 tensorflowLiteTaskVisionPlayServices = "0.4.2"
+cameraCore = "1.4.0"
 
 [libraries]
 androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraLifecycle" }
@@ -67,6 +68,7 @@ retrofit2-converter-gson = { module = "com.squareup.retrofit2:converter-gson", v
 tensorflow-lite-gpu = { module = "org.tensorflow:tensorflow-lite-gpu", version.ref = "tensorflowLiteGpu" }
 tensorflow-lite-task-vision-play-services = { module = "org.tensorflow:tensorflow-lite-task-vision-play-services", version.ref = "tensorflowLiteTaskVisionPlayServices" }
 tensorflow-lite-metadata = { module = "org.tensorflow:tensorflow-lite-metadata", version.ref = "tensorflowLiteMetadata" }
+androidx-camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "cameraCore" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
