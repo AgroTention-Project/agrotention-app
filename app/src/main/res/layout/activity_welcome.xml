@@ -124,12 +124,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
         android:alpha="1"
         android:background="@drawable/button_intro"
+        android:textSize="18dp"
         android:text="@string/get_started"
-        android:fontFamily="@font/open_sans"
+        android:fontFamily="@font/poppins_regular"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

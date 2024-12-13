@@ -95,7 +95,7 @@ dependencies {
     implementation(libs.androidx.camera.view)
 
     // circle
-    implementation (libs.circleimageview)
+    implementation(libs.circleimageview)
 
 
 }
