@@ -1,18 +1,17 @@
-package com.bangkit.agrotentionapp.view.main.model
+package com.bangkit.agrotentionapp.view.result
 
-
-import com.bangkit.agrotentionapp.data.remote.Result
 import android.net.Uri
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bangkit.agrotentionapp.data.remote.NewsRepository
+import com.bangkit.agrotentionapp.data.remote.Result
 import com.bangkit.agrotentionapp.data.remote.response.ScanResponse
 import kotlinx.coroutines.launch
 import okhttp3.MultipartBody
 
-class ScanViewModel(private val newsRepository: NewsRepository) : ViewModel() {
+class ResultViewModel (private val newsRepository: NewsRepository) : ViewModel() {
 
     private val _scanResponse = MutableLiveData<Result<ScanResponse>>()
     val scanResponse: LiveData<Result<ScanResponse>> = _scanResponse
@@ -41,4 +40,5 @@ class ScanViewModel(private val newsRepository: NewsRepository) : ViewModel() {
             _isLoading.value = false
         }
     }
+
 }

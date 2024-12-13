@@ -1,6 +1,5 @@
 package com.bangkit.agrotentionapp.view.main.model
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
